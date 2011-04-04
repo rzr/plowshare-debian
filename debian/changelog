@@ -1,0 +1,6 @@
+plowshare (1~svn1417-1) unstable; urgency=low
+
+  * Initial release (Closes: #599924)
+  * This is my first Debian package.
+
+ -- Fernando C. Estrada <fcestrada@fcestrada.com>  Sun, 03 Apr 2011 20:50:45 -0500

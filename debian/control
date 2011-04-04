@@ -1,0 +1,24 @@
+Source: plowshare
+Section: web
+Priority: optional
+Maintainer: Fernando C. Estrada <fcestrada@fcestrada.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: http://code.google.com/p/plowshare/
+Vcs-Git: git://git.debian.org/collab-maint/plowshare.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/plowshare.git;a=summary
+
+Package: plowshare
+Architecture: all
+Depends: ${misc:Depends}, curl, recode | libhtml-parser-perl, imagemagick, tesseract-ocr (>=2.04), spidermonkey-bin | rhino, perlmagick
+Recommends: aview | caca-utils
+Description: download files for file-sharing websites utility
+ plowshare is a command-line application designed for some of the most
+ popular file-sharing websites. Using plowshare you will be able to
+ download files (and for some modules also upload, list and delete) on
+ UNIX-like operating systems.
+ .
+ plowshare supports Megaupload, Rapidshare, 2Shared, 4Shared, ZShare,
+ Badongo, Divshare.com, Depositfiles, Mediafire, Netload.in, Storage.to,
+ Uploaded.to, Uploading.com, Sendspace, Usershare, X7.to and some
+ others.
