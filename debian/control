@@ -11,7 +11,7 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/plowshare.git;a=summary
 
 Package: plowshare
 Architecture: all
-Depends: ${misc:Depends}, curl, recode | libhtml-parser-perl, imagemagick, tesseract-ocr (>=2.04), spidermonkey-bin | rhino, perlmagick
+Depends: ${perl:Depends}, ${misc:Depends}, curl, recode | libhtml-parser-perl, imagemagick, tesseract-ocr (>=2.04), spidermonkey-bin | rhino, perlmagick
 Recommends: aview | caca-utils
 Description: download files for file-sharing websites utility
  plowshare is a command-line application designed for some of the most
