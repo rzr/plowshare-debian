@@ -1,16 +1,20 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: plowshare
 Upstream-Contact: Matthieu Crapet <mcrapet@gmail.com>
-Source: http://plowshare.googlecode.com/svn/trunk/
-Comment: See http://code.google.com/p/plowshare/people/list for a list
-         of contributors to plowshare.
-License: GPL-3+
+Source: http://code.google.com/p/plowshare/downloads/list
 
 Files: *
-Copyright: 2010      Arnau Sanchez <tokland@gmail.com>
-           2010      Matthieu Crapet <mcrapet@gmail.com>
-           2010-2011 Plowshare team
-           2011      halfman <Pulpan3@gmail.com>
+Copyright: 2010 Arnau Sanchez <tokland@gmail.com>
+ 2010 Matthieu Crapet <mcrapet@gmail.com>
+ 2010-2011 Plowshare team
+ 2011 halfman <Pulpan3@gmail.com>
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2011 Daniel Echeverry <epsilon77@gmail.com>
+ 2011 Fernando Estrada <fcestrada@fcestrada.com>
+License: GPL-3+
+
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -28,8 +32,8 @@ License: GPL-3+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-Files: docs/*.1
-Copyright: 2008-2011 Plowshare Project
+Files: contrib/plowdown_add_remote_loop.sh, contrib/plowdown_loop.sh, contrib/plowdown_parallel.sh 
+Copyright: 2010 Arnau Sanchez <tokland@gmail.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
