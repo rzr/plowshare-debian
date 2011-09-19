@@ -1,4 +1,3 @@
 version=3
+http://googlecode.debian.net/p/plowshare/plowshare-snapshot-git(.*)\.tar\.gz
 
-http://code.google.com/p/plowshare/downloads/list \
-    http://plowshare.googlecode.com/files/plowshare-(.*).tar.gz
