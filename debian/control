@@ -1,9 +1,10 @@
 Source: plowshare
 Section: web
 Priority: optional
-Maintainer: Fernando C. Estrada <fcestrada@fcestrada.com>
-Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.1
+Maintainer: Daniel Echeverry <epsilon77@gmail.com>
+Uploaders: Fernando C. Estrada <fcestrada@fcestrada.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.2
 Homepage: http://code.google.com/p/plowshare/
 Vcs-Git: git://git.debian.org/collab-maint/plowshare.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/plowshare.git;a=summary
