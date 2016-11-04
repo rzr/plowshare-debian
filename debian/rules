@@ -1,15 +1,14 @@
-#! /usr/bin/make -f
-#export DH_VERBOSE=1
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+package?=plowshare
+DESTDIR?=debian/${package}/
+export DESTDIR
+PREFIX=/usr/
+export PREFIX
 
 %:
-	dh $@
-
-override_dh_auto_build:
-
-override_dh_auto_install:
-	DESTDIR=$(CURDIR)/debian/plowshare PREFIX=/usr $(CURDIR)/setup.sh install
-
-override_dh_fixperms:
-	dh_fixperms
-	chmod +x $(CURDIR)/debian/plowshare/usr/share/plowshare/core.sh
-	find $(CURDIR)/debian/plowshare/usr/share/plowshare/modules/ -name "*.sh" -exec chmod +x {} \;
+	dh $@ 

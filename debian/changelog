@@ -1,3 +1,9 @@
+plowshare (0.0.0-1) unstable; urgency=low
+
+  * Snapshot
+
+ -- Philippe Coval <rzr@gna.org>  Fri, 04 Nov 2016 14:09:21 +0100
+
 plowshare (20110918-1) unstable; urgency=low
 
   * Initial release (Closes: #599924)
